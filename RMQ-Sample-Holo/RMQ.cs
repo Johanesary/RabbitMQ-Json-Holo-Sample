@@ -13,11 +13,10 @@ namespace RMQ_Sample_Holo
     {
         //default settings
         private const string hostname_local = "169.254.80.80";
-        private const string hostname_itb = "167.205.7.226";
         private const int port = 5672;
-        private const string username = "ARmachine";
-        private const string password = "12345";
-        private const string virtualhost = "/ARX";
+        private const string username = "username";
+        private const string password = "pass";
+        private const string virtualhost = "/virtualhost";
 
         private string data = "";
 
